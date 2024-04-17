@@ -1,6 +1,8 @@
 
 # Sumit's Portfolio
-  Welcome to my portfolio! Explore my journey, projects, and skills at <h3> <a href="[sumit-portfolio-gamma.vercel.app](https://sumit-portfolio-gamma.vercel.app/)">  Sumit's Portfolio. </a> </h3>
+  Welcome to my portfolio! Explore my journey, projects, and skills at Sumit's Portfolio.
+
+# Visit: https://sumit-portfolio-gamma.vercel.app/
 
 ## About Me
 I am Sumit Kumar, a passionate developer based in Rajgir, Bihar. With a B.Tech in Computer Science and Engineering from the Indian Institute of Information Technology, Kalyani, I bring a blend of technical expertise and creativity to my projects.
@@ -24,4 +26,4 @@ Here are some highlights from my portfolio:
   Proficient in languages like C, C++, Python, HTML, CSS, and JavaScript.
   Experienced with technologies and frameworks such as Node.js, Express.js, ReactJS, TailwindCSS, and Redux-ToolKit.
   Strong understanding of core subjects like Object-Oriented Programming, Database Management System, and Operating System.
-  Explore more about me and my projects at <h3> <a href="[sumit-portfolio-gamma.vercel.app](https://sumit-portfolio-gamma.vercel.app/)">  Sumit's Portfolio. </a> </h3> Feel free to reach out for collaborations or inquiries!
+  Explore more about me and my projects at Sumit's Portfolio. Feel free to reach out for collaborations or inquiries!
