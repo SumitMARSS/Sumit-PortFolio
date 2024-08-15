@@ -34,8 +34,8 @@ function Projects() {
               It features secure authentication with OTP-based login, seamless payment integration through Razorpay's API, and 
               intuitive features for both instructors and students. With a user-friendly interface, tag-based course organization, and
               robust admin capabilities, it provides a versatile and interactive platform for online education."
-              ghLink="https://github.com/SumitMARSS/Ed-Tech-Project.git"
-              demoLink="https://edtechproject.vercel.app/"
+              ghLink="https://github.com/SumitMARSS/Coding-Web.git"
+              demoLink="https://coding-web.vercel.app/"
             />
           </Col>
 
