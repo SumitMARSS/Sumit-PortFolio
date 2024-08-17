@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim"; 
 import React from "react";
-
+ 
 
 const Particle = () => {
     const [init, setInit] = useState(false);
