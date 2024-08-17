@@ -321,6 +321,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  background-image: var(--section-background-color) !important;
 }
 
 .home-about-description {
@@ -471,6 +472,27 @@ button:focus {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+/* --------- */
+/* Experience */
+/* --------- */
+.experiance-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+
+
+/* --------- */
+/* Contact */
+/* --------- */
+.contact-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
 }
 
 .blog-card {

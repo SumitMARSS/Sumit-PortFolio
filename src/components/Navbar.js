@@ -111,7 +111,6 @@ function NavBar() {
                 as={Link}
                 to="/contact"
                 // href="mailto:sumit821044@gmail.com"
-                target="_blank"
                 rel="noreferrer"
                 onClick={() => updateExpanded(false)}
               >

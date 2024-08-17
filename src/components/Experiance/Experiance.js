@@ -5,9 +5,9 @@ import "./Experiance.css";
 
 function Experience() {
   return (
-    <Container>
+    <Container fluid className="experiance-section">
       <Particle />
-      <h1 style={{ fontSize: "2.1em", paddingBottom: "20px", paddingTop: "100px", textAlign: "center" }}>
+      <h1 style={{ fontSize: "2.1em", paddingBottom: "20px", textAlign: "center" }}>
         <strong className="purple">My Experience</strong>
       </h1>
 

@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Sumit Kumar </span>
             from <span className="purple"> Rajgir, Bihar.</span>
             <br />
-             I am currently Pre Final Year Student at IIIT kalyani West Bengal
+             I am a final year student at IIIT kalyani West Bengal
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
@@ -23,7 +23,7 @@ function AboutCard() {
             <ImPointRight /> Watching Movies
           </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Reading Tech Blogs
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
@@ -31,7 +31,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-          "Code with passion, craft with precision, and innovate with purpose."{" "}
+          "Always try to learn from previous mistakes"{" "}
           </p>
           <footer className="blockquote-footer">Sumit Kumar</footer>
         </blockquote>
