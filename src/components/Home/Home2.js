@@ -105,7 +105,7 @@
 // export default Home2;
 
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import myImg from "../../Assets/avatar.svg";
 import myImg from "../../Assets/752.jpg";
@@ -120,6 +120,26 @@ import Type from "./Type";
 import Particle from "../Particle";
 
 function Home2() {
+
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+  
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth < 850);
+    };
+
+    // Initialize the state
+    handleResize();
+
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+
+    // Clean up event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Particle/>
@@ -137,12 +157,45 @@ function Home2() {
                 <strong className="main-name"> Sumit Kumar</strong> from Rajgir, Bihar, a final year student at the Indian Institute of Information Technology Kalyani with a CGPA of 8.93.
               <br />
               <br />
-              <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+              {/* <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
                 <strong style={{ fontSize: "24px", color: "#FFFFFF" }}>
                   My working space includes
                 </strong>
                 <Type />
+              </div> */}
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: isSmallScreen ? "flex-start" : "center",
+                  gap: "10px",
+                  flexDirection: isSmallScreen ? "column" : "row", // Change direction based on screen size
+                }}
+              >
+                <strong
+                  style={{
+                    fontSize: "24px",
+                    color: "#FFFFFF",
+                    width: isSmallScreen ? "100%" : "auto", // Full width on small screens
+                    marginBottom: isSmallScreen ? "10px" : "0", // Space only on small screens
+                  }}
+                >
+                  My working space includes
+                  
+                </strong>
+                <Type />
               </div>
+
+              <style>
+                {`
+                  @media (max-width: 850px) {
+                    .your-container-class strong {
+                      width: 100%;
+                      margin-bottom: 10px;
+                    }
+                  }
+                `}
+              </style>
+
               <br />
               I’ve interned at Grafixui and Ashirwad Engicon Group, working with ReactJs, NodeJs, and MongoDB. My projects include a MERN stack app and a Hate Speech Detection system.
               <br />
