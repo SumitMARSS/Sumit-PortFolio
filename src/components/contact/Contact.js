@@ -106,7 +106,7 @@ const Contact = () => {
       <Container>
         <Row style={wrapperStyle}>
           <h1 className="project-heading">
-            Feel Free to <strong className="purple">Contact Us</strong>
+            Feel Free to <strong className="purple">Contact Me</strong>
           </h1>
           <p style={{ color: "white", marginBottom: "2rem" }}>
             If you have any questions, feel free to reach out!

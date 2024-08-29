@@ -117,13 +117,21 @@ function Particle() {
   return (
     <Particles
       id="tsparticles"
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        zIndex: 9999, // Test with a high z-index value
+      }}
       options={{
         particles: {
           number: {
-            value: 300,
+            value: 160,
             density: {
               enable: true,
-              value_area: 1000,
+              value_area: 1500,
             },
           },
           line_linked: {
@@ -131,14 +139,8 @@ function Particle() {
             opacity: 0.03,
           },
           move: {
-            direction: "none",
-            speed: 1,
-            out_mode: "out",
-            attract: {
-              enable: true,
-              rotateX: 600,
-              rotateY: 1200,
-            },
+            direction: "right",
+            speed: 0.05,
           },
           size: {
             value: 1,
@@ -153,20 +155,12 @@ function Particle() {
         },
         interactivity: {
           events: {
-            onhover: {
-              enable: true,
-              mode: "repulse",
-            },
             onclick: {
               enable: true,
               mode: "push",
             },
           },
           modes: {
-            repulse: {
-              distance: 100,
-              duration: 0.4,
-            },
             push: {
               particles_nb: 1,
             },
